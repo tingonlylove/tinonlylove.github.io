@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang"zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name=="viewport" content"width=device-width, initial-scale=1.0, user-scalable=no">
     <title>EPhone</title>
     <script src="https://unpkg.com/dexie/dist/dexie.js"></script>
     <style>
@@ -27,23 +27,23 @@ body {
 #phone-screen {
     width: 100%;
     height: 100%;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    background-color: #000; /* 保留一个默认的黑色背景 */
-}
+    位置：相对;
+    溢出：隐藏;
+    显示：弹性布局;
+    弹性方向： 列;
+    背景颜色: #000; /* 保留一个默认的黑色背景 */
+输入：}
 
 /* 3. 【核心】隐藏掉模拟器的状态栏 */
-#status-bar {
-    display: none;
-}
+#状态栏 {
+    显示：无;
+输入：}
 
 /* 4. 【核心】让所有页面的头部自动适应iPhone的“刘海”安全区 */
-.header, .qzone-header {
+.标题, .qzone-标题 {
     /* 使用 env(safe-area-inset-top) 自动获取顶部安全距离 */
-    padding-top: calc(15px + env(safe-area-inset-top));
-}
+    
+输入：}
 
 /* 5. 【核心】让聊天输入框和底部导航栏自动适应iPhone底部的“小黑条”安全区 */
 #chat-input-area {
